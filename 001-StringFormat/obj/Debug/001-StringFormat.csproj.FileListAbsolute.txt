@@ -1,0 +1,1 @@
+C:\Code\NetFramework_IAI\001-StringFormat\bin\Debug\001-StringFormat.exe.config
