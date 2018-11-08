@@ -40,8 +40,10 @@ namespace _001_StringFormat
 
             //Date Time
             DateTime dt = DateTime.Now;
-            double ms = (dt - new DateTime(1, 1, 1970)).TotalMilliseconds;
-
+            double ms = (dt - new DateTime(1970,1, 1)).TotalMilliseconds;
+            //double ms = (dt - DateTime.MinValue).TotalMilliseconds;
+            double myDouble = 46.1;
+            
             Console.WriteLine(dt);
             Console.WriteLine($"day = {dt.Day} / {dt.Month} / {dt.Year} / {dt.Millisecond}");
 
