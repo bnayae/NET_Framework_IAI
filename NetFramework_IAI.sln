@@ -35,6 +35,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Soloution Items", "Soloutio
 		links.txt = links.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExerciseSolutions", "ExerciseSolutions", "{86756A45-DDE7-49E2-8A1F-CF69B0D6D21E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex02-Cars", "Ex02-Cars\Ex02-Cars.csproj", "{8671E98B-C424-45C7-B7FD-A5A607FBBEBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,10 @@ Global
 		{5D8FEEC7-7AB6-427B-948B-918C57D26C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D8FEEC7-7AB6-427B-948B-918C57D26C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D8FEEC7-7AB6-427B-948B-918C57D26C1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8671E98B-C424-45C7-B7FD-A5A607FBBEBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8671E98B-C424-45C7-B7FD-A5A607FBBEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8671E98B-C424-45C7-B7FD-A5A607FBBEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8671E98B-C424-45C7-B7FD-A5A607FBBEBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,6 +104,7 @@ Global
 		{CE5735AC-D155-4D13-945C-0390BD35807F} = {21383E0F-FF8F-4A84-8D38-EEC5BAF1F175}
 		{ED578D42-E069-4411-AF8E-BAE5917D2B5B} = {21383E0F-FF8F-4A84-8D38-EEC5BAF1F175}
 		{5D8FEEC7-7AB6-427B-948B-918C57D26C1D} = {21383E0F-FF8F-4A84-8D38-EEC5BAF1F175}
+		{8671E98B-C424-45C7-B7FD-A5A607FBBEBA} = {86756A45-DDE7-49E2-8A1F-CF69B0D6D21E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2557528F-3AD9-4E90-9074-67C23999A12C}
