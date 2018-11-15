@@ -12,7 +12,8 @@ EXERCISE 2
   -> the c'tor accept the color , the model and the year
 
 3. Build Equals method
-4. In main program : build several cars and compare them.
+4. Allow to change the color of the car maximum 3 times !
+5. In main program : build several cars and compare them.
 
 Bonus : Add the cars into array and find a car by calling "contains" method on list.
 if you have built your Equals method correctly, it should find the car.

@@ -19,8 +19,9 @@ namespace Ex02_Cars
             Color = color;
         }
 
-        #region properties
+        #region properties and Fields
         private string color = CarDefs.DEFAULT_COLOR;
+        private int changeCounter = 0;
         public string Model { get; set; }
         public int Year { get; set; }
         public string Color
@@ -28,8 +29,11 @@ namespace Ex02_Cars
             get { return color; }
             set
             {
-                if (CarDefs.Colors.Contains(value))
+                if (CarDefs.Colors.Contains(value) && changeCounter < CarDefs.MaxAllowedPaintings)
+                {
                     color = value;
+                    changeCounter++;
+                }
             }
         }
         #endregion

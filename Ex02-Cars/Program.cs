@@ -36,6 +36,12 @@ namespace Ex02_Cars
             {
                 Console.WriteLine("Kaya from 2013 cannot be found ");
             }
+
+            //trying to change color 3 more  times :
+            c2.Color = "Red"; // OK
+            c2.Color = "Blue"; // LAST TIME
+            c2.Color = "Gray"; //will not work
+            Console.WriteLine(c2.Color); //Blue !!
         }
     }
 }
