@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F98C3E76-E774-40AC-8D5D-1CAED9E946BA}</ProjectGuid>
+    <ProjectGuid>{D28FEC69-8267-48B3-9350-F7E7FA8328F8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_001_RefVrsVal</RootNamespace>
-    <AssemblyName>001-RefVrsVal</AssemblyName>
+    <RootNamespace>ReferenceByRef</RootNamespace>
+    <AssemblyName>ReferenceByRef</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,9 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IntResults.cs" />
-    <Compile Include="MyParser.cs" />
-    <Compile Include="ParseResult.cs" />
+    <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -8,7 +8,17 @@ namespace _001_RefVrsVal
 {
     class Program
     {
+        //Demostratiing Reference to parameters
         static void Main(string[] args)
+        {
+            IntResults ir = new IntResults { x = 3, y = 5 };
+            swapWithRef(ir);
+            Console.WriteLine(ir.x);
+
+        }
+        
+        //Demostratiing value by ref/ out parameters
+        static void Main3(string[] args)
         {
             string s = "";
             bool isWhite = string.IsNullOrWhiteSpace(s);
@@ -72,6 +82,14 @@ namespace _001_RefVrsVal
             int temp = v;
             v = k;
             k = temp;
+        }
+
+        //By Reference parameter to function
+        static void swapWithRef(IntResults ir)
+        {
+            int temp = ir.x;
+            ir.x = ir.y;
+            ir.y = temp;
         }
     }
 }
