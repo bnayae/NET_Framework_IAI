@@ -45,6 +45,10 @@ namespace Exercise2_Classes
             Console.WriteLine(other.IDNumber);
 
 
+            //Constants c = new Constants();
+            //Constants.ChangeUsers(6);
+            Constants.MaxUsers = 6;
+            Console.WriteLine(Constants.PI);
 
         }
     }

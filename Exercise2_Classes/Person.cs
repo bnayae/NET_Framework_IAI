@@ -13,6 +13,7 @@ namespace Exercise2_Classes
         private string addr;
         private DateTime date;
 
+        private const double PI = 3.14;
 
         //Properties
         public string phone { get; set; } // public string phone;

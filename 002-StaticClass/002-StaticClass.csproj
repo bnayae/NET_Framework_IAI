@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D0F50494-1360-4462-83A2-969B7AD932B4}</ProjectGuid>
+    <ProjectGuid>{5D8FEEC7-7AB6-427B-948B-918C57D26C1D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Exercise2_Classes</RootNamespace>
-    <AssemblyName>Exercise2_Classes</AssemblyName>
+    <RootNamespace>_002_StaticClass</RootNamespace>
+    <AssemblyName>002-StaticClass</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Constants.cs" />
-    <Compile Include="Person.cs" />
+    <Compile Include="Item.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,0 +1,20 @@
+
+
+EXERCISE 2 
+===============
+
+1. Build a class that represent a car :
+ -> the car has color (only "Blue" / "Red" /"Gray" is allowed)
+ -> the car has model (string)
+ -> the car has year (int)
+ 
+2. Build a c'tor 
+  -> the c'tor accept the color , the model and the year
+
+3. Build Equals method
+4. In main program : build several cars and compare them.
+
+Bonus : Add the cars into array and find a car by calling "contains" method on list.
+if you have built your Equals method correctly, it should find the car.
+
+  
