@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001-StringFormat", "001-Str
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001-EverythingIsObject", "001-EverythingIsObject\001-EverythingIsObject.csproj", "{EA1F8948-6D65-4124-B859-B6DB9ADAAE62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001-RefVrsVal", "001-RefVrsVal\001-RefVrsVal.csproj", "{F98C3E76-E774-40AC-8D5D-1CAED9E946BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EA1F8948-6D65-4124-B859-B6DB9ADAAE62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA1F8948-6D65-4124-B859-B6DB9ADAAE62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA1F8948-6D65-4124-B859-B6DB9ADAAE62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F98C3E76-E774-40AC-8D5D-1CAED9E946BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F98C3E76-E774-40AC-8D5D-1CAED9E946BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F98C3E76-E774-40AC-8D5D-1CAED9E946BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F98C3E76-E774-40AC-8D5D-1CAED9E946BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

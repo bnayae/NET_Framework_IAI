@@ -23,7 +23,7 @@ namespace _001_EverythingIsObject
             //Equals
             string s1 = "hello";
             string s2 = "world";
-            Console.WriteLine($"s1 != s2 : {s1 !=s2}");
+            Console.WriteLine($"s1 != s2 : {s1 != s2}");
             Console.WriteLine($"!Equals(s1,s2) : {!Equals(s1,s2)}");
             s2 = null;
             Console.WriteLine("setting o2=null");
@@ -35,13 +35,24 @@ namespace _001_EverythingIsObject
             //Refference Equals
             object o1 = new object();
             object o2 = new object();
+            Object o3;
+            if(o1 == o2)
+            {
+                Console.WriteLine("CANT BE !");
+            }
+            if (!o1.Equals(o2))
+            {
+                Console.WriteLine("o1.Equls(o2) is false !");
+            }
+
             Console.WriteLine($"ReferenceEquals(o1, o2) : { ReferenceEquals(o1, o2)}");
             Console.WriteLine($"ReferenceEquals(o1, o1) : { ReferenceEquals(o1, o1)}");
             
             Console.WriteLine($"!ReferenceEquals(o1, null) : { !ReferenceEquals(o1, null)}");
 
             ReferenceEquals(o1, o2);
-            ReferenceEquals(o1, o1);
+            o3 = o1;
+            bool bIsTheSame = ReferenceEquals(o3, o1);
             ReferenceEquals(o1, null);
             o1 = null;
             ReferenceEquals(o1, null);
