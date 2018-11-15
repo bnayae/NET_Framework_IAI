@@ -29,6 +29,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002-ClassMembers", "002-Cla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002-StaticClass", "002-StaticClass\002-StaticClass.csproj", "{5D8FEEC7-7AB6-427B-948B-918C57D26C1D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Soloution Items", "Soloution Items", "{7FBE5107-94BD-4A98-8A8D-B6D02A8B5B16}"
+	ProjectSection(SolutionItems) = preProject
+		exercise 2.txt = exercise 2.txt
+		links.txt = links.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
