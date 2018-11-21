@@ -1,0 +1,21 @@
+define string with ascii of your name + Date
+
+2017-06-21 10:30
+###   @    @    ***   $    $  &&&                                                                               
+#  #  @@   @   *   *   $  $  &   &                                                                                      
+###   @ @  @  *    *    $   &    &                                                                                     
+# #   @  @ @  ******    $   &&&&&&                                                                                       
+#  #  @   @@  *    *    $   &    &                                                                                      
+###   @    @  *    *    $   &    &                                                                                       
+
+
+replace the chars with other char
+
+----------
+create Methos that gets array of string (use params)
+
+Sort the Array
+
+create string which concat all the string in the array 
+each string of the array should be in new line
+

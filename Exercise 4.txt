@@ -1,0 +1,9 @@
+Calc distance (object, time)
+
+	contract
+		Speed
+		RestPerHour
+
+		// (duration - rest) * speed
+
+use base class + interface

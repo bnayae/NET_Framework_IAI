@@ -1,0 +1,19 @@
+Create base class Animal
+	LegsNumber
+	string Voice
+	Color
+	Draw()
+	{ 
+		Change Color
+		Write Leg = x, Voice
+	}
+	int Speed
+
+	Draw(TimeSpan)
+	{
+		Calc Distance (speed * hour)
+		Write .......Hav
+	}
+
+
+create Derived class Cat Dog Bird

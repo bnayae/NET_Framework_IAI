@@ -30,7 +30,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Soloution Items", "Soloution Items", "{7FBE5107-94BD-4A98-8A8D-B6D02A8B5B16}"
 	ProjectSection(SolutionItems) = preProject
 		exercise 2.txt = exercise 2.txt
-		links.txt = links.txt
+		Exercise 2_B.txt = Exercise 2_B.txt
+		Exercise 3.txt = Exercise 3.txt
+		Exercise 4.txt = Exercise 4.txt
+		links.md = links.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExerciseSolutions", "ExerciseSolutions", "{86756A45-DDE7-49E2-8A1F-CF69B0D6D21E}"
