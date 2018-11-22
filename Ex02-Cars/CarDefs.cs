@@ -13,6 +13,15 @@ namespace Ex02_Cars
         public static readonly string GRAY = "Gray";
         public static readonly string DEFAULT_COLOR = GRAY;
         public static readonly string[] Colors = { BLUE, RED, GRAY };
-        public static readonly int MaxAllowedPaintings = 3;
+        public static readonly int MaxAllowedPaintings ;
+
+        public const double PI = 3.14;
+
+
+        static CarDefs()
+        {
+            //read from config
+            MaxAllowedPaintings = 3;
+        }
     }
 }

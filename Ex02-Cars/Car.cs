@@ -8,6 +8,7 @@ namespace Ex02_Cars
 {
     public class Car
     {
+        #region C'tor
         public Car()
         {
         }
@@ -18,6 +19,7 @@ namespace Ex02_Cars
             Year = year;
             Color = color;
         }
+        #endregion
 
         #region properties and Fields
         private string color = CarDefs.DEFAULT_COLOR;
@@ -53,6 +55,7 @@ namespace Ex02_Cars
         }
         #endregion
 
+       
 
     }
 }

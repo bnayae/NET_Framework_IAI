@@ -20,10 +20,11 @@ namespace Ex02_Cars
 
             //BONUS : Put cars in array
             Car[] garage = new Car[] {
+                new Car("Golf", 2016, "Gray"),
                 new Car("Hundai", 2016, "Blue"),
                 new Car("Kaya", 2012, "Blue"),
-                new Car("Honda", 2015, "Red"),
-                new Car("Golf", 2016, "Gray")
+                new Car("Honda", 2015, "Red")
+                
             };
 
             Console.WriteLine("finding Gray golf with new Car(Golf, 2018, 'yellow')");
