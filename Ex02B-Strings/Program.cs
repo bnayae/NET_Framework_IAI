@@ -54,11 +54,13 @@ namespace Ex02B_Strings
             Console.WriteLine(sb.ToString());
 
             //Option 3 :
-            string s3 = string.Join("\r\n", arr);
+            //string s3 = string.Join("\r\n", arr);
+            string s3 = string.Join(Environment.NewLine, arr);
             Console.WriteLine(s3);
 
             //Back to Array
             string[] arr2 = s3.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+
 
         }
     }
