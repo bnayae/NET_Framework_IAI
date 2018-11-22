@@ -11,7 +11,7 @@ namespace Exercise2_Classes
         static void Main(string[] args)
         {
             Person p1 = new Person("AVi_MESHULAM", "add");
-            p1.phone = "0977345345";
+            p1.phone = "0977345345"; 
 
             Person p2 = new Person("AVi", "add2",1985,12,12);
 
