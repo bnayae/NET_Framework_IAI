@@ -11,9 +11,9 @@ namespace _003_Strings
         static void Main(string[] args)
         {
             string a = "";
-            if(a == String.Empty)
+            if (a == String.Empty)
                 Console.WriteLine("empty");
-            if(string.IsNullOrEmpty(a))
+            if (string.IsNullOrEmpty(a))
                 Console.WriteLine("Null or empty true");
             string nullStr = null;
             if (string.IsNullOrEmpty(nullStr))
@@ -30,7 +30,7 @@ namespace _003_Strings
             string c2 = "world";
 
             string greeting = string.Concat(c1, c2);
-            if(greeting.Equals("Hello World",StringComparison.InvariantCultureIgnoreCase))
+            if (greeting.Equals("Hello World", StringComparison.InvariantCultureIgnoreCase))
             {
                 Console.WriteLine("same same");
             }
@@ -39,7 +39,7 @@ namespace _003_Strings
 
             int value = 3;
             string number = value.ToString();
-            if(greeting.StartsWith("hello",StringComparison.InvariantCultureIgnoreCase))
+            if (greeting.StartsWith("hello", StringComparison.InvariantCultureIgnoreCase))
             {
                 Console.WriteLine("good");
             }
@@ -47,6 +47,35 @@ namespace _003_Strings
             string sStars = new string('*', 4);
             //String builder
 
+
+            StringBuilder sb = new StringBuilder(256);
+            sb.Append("Hello");
+            Console.WriteLine($"Capacity = {sb.Capacity} - {sb.Length}");
+            sb.Append(" ");
+            Console.WriteLine($"Capacity = {sb.Capacity} - {sb.Length}");
+            sb.Append("world");
+            Console.WriteLine($"Capacity = {sb.Capacity} - {sb.Length} ");
+            sb.Append("This is a very long string indeeeeed !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            Console.WriteLine($"Capacity = {sb.Capacity} - {sb.Length}");
+            sb.Replace("!", "@");
+
+            Console.WriteLine(sb.ToString());
+
+            string json = "c:\\temp";
+
+            string json2 = "\"p\":\"2\"";
+            Console.WriteLine(json2);
+
         }
+
+
+        private static string bnaya = @"
+###   @    @    ***   $    $  &&&                                                                               
+#  #  @@   @   *   *   $  $  &   &                                                                                      
+###   @ @  @  *    *    $   &    &                                                                                     
+# #   @  @ @  ******    $   &&&&&&                                                                                       
+#  #  @   @@  *    *    $   &    &                                                                                      
+###   @    @  *    *    $   &    &";
+
     }
 }
