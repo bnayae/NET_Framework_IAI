@@ -27,6 +27,7 @@ You need to use as much features from the language that were introduced during t
  - Add a function called "public string AllData()" that is returning the HR System as single string:
  **#ronen:tomer:ronit:arnon:shlomi:revital#liat:alon#shirly:avi:idan#**
 so as you can see the divisions are sepeared by # , and the workers in each division are seperated with :
+ - **Bonus /Advnace** : take this single string from the function AllData, and create an NEW HR system from it.
  - Hint: use Join, Split, StringBuilder and everything else you find suitable
  - The Exercise is not mandatory and will not be checked. The solution will be given but may not be reviewed.
  - Feel free to contact / Consult.
