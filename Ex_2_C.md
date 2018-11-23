@@ -25,8 +25,8 @@ You need to use as much features from the language that were introduced during t
  - In the Main program you can do Input/Output with the Console and delive the result to the HR system.
  - Unlike what was presented in class : try not to use Console.ReadLine inside the HR class.
  - Add a function called "public string AllData()" that is returning the HR System as single string:
- *ronen:tomer:ronit:arnon:shlomi:revital*liat:alon*shirly:avi:idan*
-so as you can see the divisions are sepeared by * , and the workers in each division are seperated with :
+ **#ronen:tomer:ronit:arnon:shlomi:revital#liat:alon#shirly:avi:idan#**
+so as you can see the divisions are sepeared by # , and the workers in each division are seperated with :
  - Hint: use Join, Split, StringBuilder and everything else you find suitable
  - The Exercise is not mandatory and will not be checked. The solution will be given but may not be reviewed.
  - Feel free to contact / Consult.
