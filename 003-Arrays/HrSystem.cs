@@ -34,10 +34,12 @@ namespace _003_Arrays
             {
                 int divSize = workers[i].Length;
                 Console.WriteLine($"*****Division {i + 1}******");
-                for (int j = 0; j < divSize; ++j)
+                //Option A :
+                /*for (int j = 0; j < divSize; ++j)
                 {
                     Console.WriteLine($"\t{workers[i][j]}");
-                }
+                }*/
+                //Option B using foreach
                 foreach(string workerName in workers[i])
                 {
                     Console.WriteLine($"\t{workerName}");
