@@ -10,6 +10,10 @@ namespace _001_Inheritance
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("Im in yellow");
+            Console.ResetColor();
+
             //Programmer p = new Programmer("45567");
             Programmer p2 = new Programmer("5432423", 2);
             Console.WriteLine(p2.CalcSalary());
