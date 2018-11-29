@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _002_Animals
 {
-    public class Animal
+    public abstract class Animal
     {
         public Animal(ConsoleColor color)
         {
@@ -17,7 +17,7 @@ namespace _002_Animals
         {
             return 0;
         }*/
-        protected virtual int Legs => 0;
+
         /*public string Voice
         {
             get { return string.Empty; }
@@ -25,9 +25,12 @@ namespace _002_Animals
         //c 5#
         //public string Voice { get; }= string.Empty
         // C# 6
-        protected virtual string Voice => string.Empty;
-        protected virtual string Name => string.Empty;
-        protected virtual int Speed => 0;
+        protected abstract string Voice { get; }
+        protected abstract string Name { get; }
+        protected abstract int getSpeed();
+        //without Abstract
+        //protected virtual int Legs => 0;
+        protected abstract int Legs { get; }
 
         public void Draw()
         {
@@ -40,7 +43,7 @@ namespace _002_Animals
 
         public void Draw(TimeSpan ts)
         {
-            int distance = ts.Hours * Speed;
+            int distance = ts.Hours * getSpeed();
             string nPoint = new string('*', distance);
             Console.WriteLine($"{nPoint} {Voice}");
         }

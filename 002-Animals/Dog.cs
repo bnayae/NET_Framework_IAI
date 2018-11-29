@@ -27,7 +27,12 @@ namespace _002_Animals
         //public override string Voice => DogBark;
         protected override string Voice => "Hav";
         protected override string Name => VISUAL;
-        protected override int Speed => 8;
+
+
+        protected override int getSpeed()
+        {
+            return 8;
+        }
 
     }
 

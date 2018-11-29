@@ -21,8 +21,12 @@ namespace _002_Animals
         }
 
         protected override int Legs => 4;
-        protected override int Speed => 12;
         protected override string Voice => "Miao";
         protected override string Name => VISUAL;
+
+        protected override int getSpeed()
+        {
+            return 12;
+        }
     }
 }

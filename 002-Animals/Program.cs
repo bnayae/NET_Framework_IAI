@@ -15,7 +15,9 @@ namespace _002_Animals
                 new Dog(ConsoleColor.White),
                 new Bird(ConsoleColor.Red),
                 new Cat(ConsoleColor.Blue),
-                new Bird(ConsoleColor.Green)
+                new Bird(ConsoleColor.Green),
+                //you cannot instantiate an abstract class
+                //new Animal(ConsoleColor.Black) 
             };
 
             foreach(Animal animal in animals)

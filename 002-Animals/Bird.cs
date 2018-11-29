@@ -25,8 +25,33 @@ namespace _002_Animals
         {
         }
         protected override string Voice => "tweet";
-        protected override int Speed => 10;
         protected override int Legs => 2;
         protected override string Name => VISUAL;
+
+        protected override int getSpeed()
+        {
+            return 10;
+        }
     }
+
+    public abstract class BlueBird : Animal
+    {
+        public BlueBird(ConsoleColor c):base(c)
+        {
+
+        }
+
+        protected override int getSpeed()
+        {
+            return -1;
+        }
+
+        void myLogic()
+        {
+            base.Draw();
+            ///Do my stuff
+        }
+    };
 }
+
+
