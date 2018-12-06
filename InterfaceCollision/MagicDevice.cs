@@ -16,7 +16,7 @@ namespace InterfaceCollision
         {
             Console.WriteLine("Screen printing");
         }
-        void IPrinter.Print()
+         void IPrinter.Print()
         {
             Console.WriteLine("Printer printing");
         }

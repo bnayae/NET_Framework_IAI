@@ -13,7 +13,7 @@ namespace InterfaceCollision
             MagicDevice m = new MagicDevice();
             ((IScreen)m).Print();
             ((IPrinter)m).Print();
-
+            
             
             PrintScreen(m);
             PrintPrinter(m);
