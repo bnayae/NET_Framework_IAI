@@ -11,6 +11,7 @@ namespace Struct
         private int _x;
         private readonly int _z; //public int Z { get; }
         public int Y { get; set; }
+        private object data;
         
         public Point3D(int x , int y, int z)
         {
@@ -18,6 +19,7 @@ namespace Struct
             //_x = x;
             _x = x;
             Y = y;
+            data = new byte[16];
         }
         public int X
         {
@@ -37,7 +39,7 @@ namespace Struct
             //return Object.Equals(other, this);
         }
 
-       /* public override bool Equals(object obj)
+       /*public override bool Equals(object obj)
         {
             if(!(obj is Point3D))
                 return false;

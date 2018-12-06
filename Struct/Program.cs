@@ -20,10 +20,16 @@ namespace Struct
 
             if(p.Equals(other))
                 Console.WriteLine("yes");
-            //TODO : explain this : why is it true ? Hunch : value comparison
-            if(object.Equals((object)other, p))
+            
+            //Explanation : 
+            //https://docs.microsoft.com/en-us/dotnet/api/system.valuetype.equals?view=netframework-4.7.2
+            //1. if the value type / struct has fields that are all value- > Bit Comparison
+            //2. if there are Reference type , there is a reflection (performance)
+            //3. always override Equals for Value type if you have Reffernce inside them
+            if (Equals(other, p))
                 Console.WriteLine("???");
-            if(ReferenceEquals(other,p))
+
+            if (ReferenceEquals(other,p))
                 Console.WriteLine("???"); 
 
 
