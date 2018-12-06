@@ -9,8 +9,6 @@ namespace _003_SafeCast
     public class Employee
     {
         public int Id { get; set; }
-
-
     }
 
     public class Programmer : Employee
