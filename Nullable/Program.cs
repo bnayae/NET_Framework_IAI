@@ -26,8 +26,7 @@ namespace Nullable
             //int v5 = getValueIfExists(0); will not compile
 
             string db = DbAccess() ?? "NA";
-
-
+            
             //C# 6 avoid null
             Person person = new Person();
             person?.print();
