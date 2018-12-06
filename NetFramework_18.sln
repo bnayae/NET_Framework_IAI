@@ -76,6 +76,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{2BE6EF27-1647-4A99-9876-7E4DEA3811CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceCollision", "InterfaceCollision\InterfaceCollision.csproj", "{758111DC-6196-4592-9660-257EFBB3FA09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -186,6 +188,10 @@ Global
 		{2BE6EF27-1647-4A99-9876-7E4DEA3811CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BE6EF27-1647-4A99-9876-7E4DEA3811CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BE6EF27-1647-4A99-9876-7E4DEA3811CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{758111DC-6196-4592-9660-257EFBB3FA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{758111DC-6196-4592-9660-257EFBB3FA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{758111DC-6196-4592-9660-257EFBB3FA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{758111DC-6196-4592-9660-257EFBB3FA09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -217,6 +223,7 @@ Global
 		{A8C11E73-1B92-4B5C-A90A-077144A3102E} = {F34E5B03-E7A0-4151-9193-EEAE374A28FD}
 		{7A31A44A-7EC3-4BD4-AEDE-3B6AEDB01049} = {F34E5B03-E7A0-4151-9193-EEAE374A28FD}
 		{2BE6EF27-1647-4A99-9876-7E4DEA3811CE} = {F34E5B03-E7A0-4151-9193-EEAE374A28FD}
+		{758111DC-6196-4592-9660-257EFBB3FA09} = {F34E5B03-E7A0-4151-9193-EEAE374A28FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2557528F-3AD9-4E90-9074-67C23999A12C}
