@@ -58,31 +58,31 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex2_C_HR_System", "Ex2_C_HR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX2_C_HR_Lib", "EX2_C_HR_Lib\EX2_C_HR_Lib.csproj", "{BD610497-4508-4DEA-A69C-D328C9A7CC95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001-Inheritance", "001-Inheritance\001-Inheritance.csproj", "{B722ED5F-D2BE-40B5-9C7A-43CCAC633207}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004-Inheritance", "001-Inheritance\004-Inheritance.csproj", "{B722ED5F-D2BE-40B5-9C7A-43CCAC633207}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day4", "Day4", "{B55FA6A8-0ADE-4BC5-9A84-E17EF10850CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002-Animals", "002-Animals\002-Animals.csproj", "{8C22062F-D126-4803-A687-A2519AE2093B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004-Animals", "002-Animals\004-Animals.csproj", "{8C22062F-D126-4803-A687-A2519AE2093B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003-SafeCast", "003-SafeCast\003-SafeCast.csproj", "{B2A50D52-5883-4556-A2AD-D9E39B51855E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004-SafeCast", "003-SafeCast\004-SafeCast.csproj", "{B2A50D52-5883-4556-A2AD-D9E39B51855E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day5", "Day5", "{F34E5B03-E7A0-4151-9193-EEAE374A28FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct", "Struct\Struct.csproj", "{8521C0ED-2271-4139-B27D-2710DC38318E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005-Struct", "Struct\005-Struct.csproj", "{8521C0ED-2271-4139-B27D-2710DC38318E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nullable", "Nullable\Nullable.csproj", "{A8C11E73-1B92-4B5C-A90A-077144A3102E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005-Nullable", "Nullable\005-Nullable.csproj", "{A8C11E73-1B92-4B5C-A90A-077144A3102E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj", "{7A31A44A-7EC3-4BD4-AEDE-3B6AEDB01049}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005-Enums", "Enums\005-Enums.csproj", "{7A31A44A-7EC3-4BD4-AEDE-3B6AEDB01049}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{2BE6EF27-1647-4A99-9876-7E4DEA3811CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005-Interfaces", "Interfaces\005-Interfaces.csproj", "{2BE6EF27-1647-4A99-9876-7E4DEA3811CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceCollision", "InterfaceCollision\InterfaceCollision.csproj", "{758111DC-6196-4592-9660-257EFBB3FA09}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005-InterfaceCollision", "InterfaceCollision\005-InterfaceCollision.csproj", "{758111DC-6196-4592-9660-257EFBB3FA09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort", "Sort\Sort.csproj", "{1980097D-CB8B-42CF-96D4-74F02F460717}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005-Sort", "Sort\005-Sort.csproj", "{1980097D-CB8B-42CF-96D4-74F02F460717}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerable_Intro", "IEnumerable_Intro\IEnumerable_Intro.csproj", "{CEB4BC56-4AEA-4F48-BA0D-1C179160DA72}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005-IEnumerable_Intro", "IEnumerable_Intro\005-IEnumerable_Intro.csproj", "{CEB4BC56-4AEA-4F48-BA0D-1C179160DA72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateIntro", "DelegateIntro\DelegateIntro.csproj", "{BE2F5B8D-011D-4555-A771-9F6F452D438D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005-DelegateIntro", "DelegateIntro\005-DelegateIntro.csproj", "{BE2F5B8D-011D-4555-A771-9F6F452D438D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
