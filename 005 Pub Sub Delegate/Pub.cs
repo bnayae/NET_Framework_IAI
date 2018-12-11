@@ -10,7 +10,6 @@ namespace PubSub_Delegate
     public class Pub
     {
         private int _counter;
-        //public NotifyDelegate Subscribers;
         public event Action<string, DateTimeOffset> Subscribers;
         private readonly Timer _tmr; // GC friendly
 
