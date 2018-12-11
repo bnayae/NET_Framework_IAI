@@ -32,11 +32,11 @@ namespace DelegateIntro
             }
         }
         //3. Using pre-define Delegate
-        public static IEnumerable<int> Filter3(IEnumerable<int> list, Func<int,bool> filter)
+        public static IEnumerable<int> Filter3(IEnumerable<int> list, Func<int,bool> strategy)
         {
             foreach (var item in list)
             {
-                if (filter(item))
+                if (strategy(item))
                     yield return item;
             }
         }
