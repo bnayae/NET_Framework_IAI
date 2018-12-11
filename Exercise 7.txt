@@ -1,0 +1,16 @@
+Create Class 
+ which have property of string
+
+overload the folowing operators
+	casting
+	+
+	==
+
+	if adding null or empty string to the + operator throw ArgumentNullExcpetion
+
+Main construct few method chain
+ practice:
+	simple throw
+	throw different exception
+
+	Debugger: break on first time exception
