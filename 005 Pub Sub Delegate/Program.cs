@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _006A_ExternalSubscriber;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,7 @@ namespace PubSub_Delegate
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             Console.WriteLine($"Start {DateTimeOffset.Now:HH:mm:ss}");
             Pub p = new Pub();
@@ -36,6 +37,29 @@ namespace PubSub_Delegate
             GC.KeepAlive(p);
         }
 
+        static void Main(string[] args)
+        {
+            Console.WriteLine($"Start {DateTimeOffset.Now:HH:mm:ss}");
+            PubNotRightWay publisher = new PubNotRightWay();
+
+            FixSubscriber sub1 = new FixSubscriber();
+            ColorSubscriber sub2 = new ColorSubscriber(ConsoleColor.Yellow);
+            MyExternalSubscriber external = new MyExternalSubscriber();
+
+            publisher.Register(sub1.React);
+            publisher.Register(sub2.Notify);
+            
+            //Task 1 : Add your own Subscriber 
+
+            publisher.Register(external.OnMessageArrived);
+
+            //Task 2 
+            // Wait 4 seconds and 
+            //remove the external
+
+            Console.ReadKey();
+            GC.KeepAlive(publisher);
+        }
         private static void OnData(string m, DateTimeOffset t)
         {
             Console.ForegroundColor = ConsoleColor.Magenta;

@@ -11,7 +11,7 @@ namespace PubSub_Delegate
     {
         private int _counter;
         private readonly List<NotifyDelegate> _subscribers = new List<NotifyDelegate>();
-        private readonly Timer _tmr; // GC friendly
+        private readonly Timer _tmr; 
 
         public PubNotRightWay()
         {
@@ -27,7 +27,9 @@ namespace PubSub_Delegate
             _counter++;
             foreach (NotifyDelegate sub in subs)
             {
+                //sub.Invoke("str", DateTimeOffset.Now);
                 sub($"Message number {_counter}", DateTimeOffset.UtcNow);
+                
             }
         }
 

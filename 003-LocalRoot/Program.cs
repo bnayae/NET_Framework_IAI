@@ -17,7 +17,7 @@ namespace _003_LocalRoot
             Timer timer = new Timer(OnTimer, null, 1000, 1000);
             Console.ReadLine();
             //KeepTimerAlive(timer);
-            //GC.KeepAlive(timer);
+            GC.KeepAlive(timer);
             
         }
 
