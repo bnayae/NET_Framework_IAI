@@ -1,0 +1,13 @@
+
+1. Clone from existing repository
+===================================
+git clone https://github.com/tshaiman/NET_Framework_IAI.git
+
+3. Get Updates
+=======================
+git pull
+
+3. RESET your changes
+===========================
+git reset HEAD --hard
+

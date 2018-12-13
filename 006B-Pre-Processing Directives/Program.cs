@@ -10,10 +10,16 @@ namespace _003_Pre_Processing_Directives
     {
         static void Main(string[] args)
         {
-#if QA
+#if DEBUG
             Console.WriteLine("Defined");
+    #if DB_ACCESSS
+            Console.WriteLine("WOW");
+    #endif
+            Console.WriteLine("hello");
+           
 #else
             Console.WriteLine("Not-Defined");
+
 #endif
         }
     }

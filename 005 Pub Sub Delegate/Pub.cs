@@ -11,28 +11,24 @@ namespace PubSub_Delegate
     {
         private int _counter;
         public event Action<string, DateTimeOffset> Subscribers;
-        private readonly Timer _tmr; // GC friendly
+        
+        private readonly Timer _tmr; 
 
         public Pub()
         {
             _tmr = new Timer(OnTime, null,
                                 TimeSpan.FromSeconds(2),
                                 TimeSpan.FromSeconds(1));
+           
         }
-
+        
         private void OnTime(object state)
         {
-            // Not thread safe
             _counter++;
-            //NotifyDelegate subscribers = Subscribers;
             Action<string, DateTimeOffset> subscribers = Subscribers;
             if (subscribers == null)
                 return;
             subscribers($"Message number {_counter}", DateTimeOffset.UtcNow);
-            //foreach (NotifyDelegate sub in subscribers.GetInvocationList())
-            //{
-            //    sub($"Message number {_counter}", DateTimeOffset.UtcNow);
-            //}
         }
 
 

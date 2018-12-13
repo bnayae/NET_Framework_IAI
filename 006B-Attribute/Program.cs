@@ -10,7 +10,9 @@ namespace _008_Attribute
     {
         static void Main(string[] args)
         {
-            FussyInvoke();
+            // FussyInvoke();
+            Foo f = new Foo();
+            f.Exec();
         }
 
         private static void FussyInvoke()

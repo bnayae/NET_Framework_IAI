@@ -65,12 +65,12 @@ namespace _001_Exception_Handling
             {
                 X4(i);
             }
-            catch (DivideByZeroException)
+            catch (DivideByZeroException ex)
             {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Don't divide by zero");
                 Console.ResetColor();
-                // throw ex; Don't do
+                //throw ex;
                 throw;
             }
             finally
@@ -104,7 +104,7 @@ namespace _001_Exception_Handling
         private static void X5(int i)
         {
             Console.WriteLine("-> X5");
-            if (Environment.TickCount % 2 == 0)
+            if (false && Environment.TickCount % 2 == 0)
                 throw new ArgumentOutOfRangeException("Ticks");
             if(10 / i == 0)
                 Console.WriteLine("OK");

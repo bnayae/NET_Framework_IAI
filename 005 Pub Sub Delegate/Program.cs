@@ -10,7 +10,7 @@ namespace PubSub_Delegate
 {
     class Program
     {
-        static void Main2(string[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine($"Start {DateTimeOffset.Now:HH:mm:ss}");
             Pub p = new Pub();
@@ -37,7 +37,7 @@ namespace PubSub_Delegate
             GC.KeepAlive(p);
         }
 
-        static void Main(string[] args)
+        static void Main2_WithIncorrectPublisher(string[] args)
         {
             Console.WriteLine($"Start {DateTimeOffset.Now:HH:mm:ss}");
             PubNotRightWay publisher = new PubNotRightWay();
@@ -48,13 +48,15 @@ namespace PubSub_Delegate
 
             publisher.Register(sub1.React);
             publisher.Register(sub2.Notify);
-            
-            //Task 1 : Add your own Subscriber 
 
+            //Task 1 : Add your own Subscriber 
+            publisher.Register(OnData);
             publisher.Register(external.OnMessageArrived);
 
             //Task 2 
             // Wait 4 seconds and 
+            Thread.Sleep(4000);
+            publisher.Unregister(external.OnMessageArrived);
             //remove the external
 
             Console.ReadKey();
@@ -67,5 +69,7 @@ namespace PubSub_Delegate
             Console.WriteLine($"{localTime:HH:mm:ss}: {m}");
             Console.ResetColor();
         }
+
+
     }
 }

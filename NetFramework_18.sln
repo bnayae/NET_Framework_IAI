@@ -34,6 +34,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Soloution Items", "Soloutio
 		Exercise 3.txt = Exercise 3.txt
 		Exercise 4.txt = Exercise 4.txt
 		Exercise 7.txt = Exercise 7.txt
+		git_commands.txt = git_commands.txt
 		links.md = links.md
 	EndProjectSection
 EndProject
@@ -118,6 +119,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_ConfigInterfaceDemo", "005_ConfigInterfaceDemo\005_ConfigInterfaceDemo.csproj", "{8B20B1F3-0DA0-4A50-A9EC-259480850425}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006A_ExternalSubscriber", "006A_ExternalSubscriber\006A_ExternalSubscriber.csproj", "{6A70808F-41A3-484A-B495-E8D7EAA15A99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_SimpleEventArgs", "006_SimpleEventArgs\006_SimpleEventArgs.csproj", "{87532AFD-467F-46F7-8EF4-13DB7A968774}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -396,6 +399,12 @@ Global
 		{6A70808F-41A3-484A-B495-E8D7EAA15A99}.QA|Any CPU.Build.0 = Release|Any CPU
 		{6A70808F-41A3-484A-B495-E8D7EAA15A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A70808F-41A3-484A-B495-E8D7EAA15A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87532AFD-467F-46F7-8EF4-13DB7A968774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87532AFD-467F-46F7-8EF4-13DB7A968774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87532AFD-467F-46F7-8EF4-13DB7A968774}.QA|Any CPU.ActiveCfg = Release|Any CPU
+		{87532AFD-467F-46F7-8EF4-13DB7A968774}.QA|Any CPU.Build.0 = Release|Any CPU
+		{87532AFD-467F-46F7-8EF4-13DB7A968774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87532AFD-467F-46F7-8EF4-13DB7A968774}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -446,6 +455,7 @@ Global
 		{EC8AD9A6-5DAD-402C-BCE0-12028C1F35C2} = {B7816AFF-A5ED-49D5-824A-A8AB1C8BE053}
 		{8B20B1F3-0DA0-4A50-A9EC-259480850425} = {F34E5B03-E7A0-4151-9193-EEAE374A28FD}
 		{6A70808F-41A3-484A-B495-E8D7EAA15A99} = {B7816AFF-A5ED-49D5-824A-A8AB1C8BE053}
+		{87532AFD-467F-46F7-8EF4-13DB7A968774} = {B7816AFF-A5ED-49D5-824A-A8AB1C8BE053}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2557528F-3AD9-4E90-9074-67C23999A12C}
