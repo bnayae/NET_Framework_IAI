@@ -13,14 +13,14 @@ namespace DelegateIntro
     public static class FilterExtensions
     {
         //1. Filtering according to IFilterRule interface
-        /*public static IEnumerable<int> Filter(IEnumerable<int> list,IFilterRule rule)
+        public static IEnumerable<int> Filter(IEnumerable<int> list,IFilterRule stategy)
         {
-            foreach (var item in list)
+            foreach (int item in list)
             {
-                if (rule.IsValid(item))
+                if (stategy.IsValid(item))
                     yield return item;
             }
-        }*/
+        }
 
         //2. Filtering according to Deletgate
         public static IEnumerable<int> Filter(IEnumerable<int> list, FilterDelgate filter)
@@ -31,9 +31,11 @@ namespace DelegateIntro
                     yield return item;
             }
         }
+       
         //3. Using pre-define Delegate
-        public static IEnumerable<int> Filter3(IEnumerable<int> list, Func<int,bool> strategy)
+        public static IEnumerable<int> Filter3(this IEnumerable<int> list, Func<int,bool> strategy)
         {
+            list.Reverse();
             foreach (var item in list)
             {
                 if (strategy(item))
