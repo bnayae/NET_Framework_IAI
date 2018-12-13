@@ -1,8 +1,9 @@
 
 
-EXERCISE 2 
+EXERCISE 2 !!!!!
 ===============
-
+this is my lecturer change !
+=============================
 1. Build a class that represent a car :
  -> the car has color (only "Blue" / "Red" /"Gray" is allowed)
  -> the car has model (string)
