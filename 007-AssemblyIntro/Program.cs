@@ -9,16 +9,18 @@ namespace _007_AssemblyIntro
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            //Create A student
-            //Set its name
-            //Set its Age
-            //Call its print function
-
+            Exercise7();
+            //Demo1();
         }
-
-        static void Main2(string[] args)
+        //Exercise :
+        //Load Student Assembly from 007_DataModel
+        //Set its name
+        //Set its Age
+        //Call its print function
+        
+        static void Demo1(string[] args)
         {
             //1.Get The Assembly !
             //Assembly assembly = Assembly.Load("name-of-assembly");
@@ -49,8 +51,6 @@ namespace _007_AssemblyIntro
                 }
             }
             
-
-
             Console.ReadLine();
 
         }
@@ -118,6 +118,32 @@ namespace _007_AssemblyIntro
             string model = (string)modelPropInfo.GetValue(c2);
 
             return c1;
+        }
+
+        
+        static void Exercise7()
+        {
+            //Create A student
+            Assembly assembly = Assembly.LoadFile("C:\\3RdParty\\07_DataModel.Dll");
+            foreach (var type in assembly.GetExportedTypes())
+            {
+                if (type.Name.Equals("Student"))
+                {
+                    object student = Activator.CreateInstance(type);
+                    PropertyInfo ageInfo = type.GetProperty("Age");
+                    ageInfo.SetValue(student, 32);
+
+                    PropertyInfo nameInfo = type.GetProperty("Name");
+                    nameInfo.SetValue(student, "avi");
+
+                    MethodInfo printMethod = type.GetMethod("Print");
+                    printMethod.Invoke(student, new object[] { 3 });
+
+
+                }
+            }
+
+
         }
     }
 }

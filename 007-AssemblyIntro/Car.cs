@@ -21,6 +21,7 @@ namespace _007_AssemblyIntro
         public int year; ///field
         public string Model { get; set; } //property
 
+        [AdminAttribute(4)]
         public void Drive(int km) // method
         {
             Console.WriteLine($"Driving {km} km" );
