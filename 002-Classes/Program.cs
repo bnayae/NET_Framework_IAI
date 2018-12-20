@@ -11,6 +11,12 @@ namespace _002_Classes
     {
         static void Main(string[] args)
         {
+            Book b = new Book();
+            //Cannot do , title is private
+            //b.title = "my title";
+            Console.WriteLine(b.title); // getter is public
+
+
             Point p = new Point();
             int x = p.getX();
 

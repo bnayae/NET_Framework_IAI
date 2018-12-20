@@ -16,7 +16,7 @@ namespace _007_dynamic
             Console.WriteLine(id);
 
             id = "hello world";
-            Console.WriteLine(id.Tsdfsdf());
+            Console.WriteLine(id.ToUpper());
             
             
         }

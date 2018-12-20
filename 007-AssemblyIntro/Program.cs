@@ -127,6 +127,7 @@ namespace _007_AssemblyIntro
             Assembly assembly = Assembly.LoadFile("C:\\3RdParty\\07_DataModel.Dll");
             foreach (var type in assembly.GetExportedTypes())
             {
+                //First try with Reflection
                 if (type.Name.Equals("Student"))
                 {
                     object student = Activator.CreateInstance(type);
@@ -138,6 +139,18 @@ namespace _007_AssemblyIntro
 
                     MethodInfo printMethod = type.GetMethod("Print");
                     printMethod.Invoke(student, new object[] { 3 });
+
+
+                }
+
+                //Second Try now with dynamic
+                if (type.Name.Equals("Student"))
+                {
+                    dynamic student = Activator.CreateInstance(type);
+                    student.Name = "Ronen";
+                    //student.Age = 34; // will crash
+
+                    student.Print(3);
 
 
                 }
