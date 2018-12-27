@@ -1,0 +1,9 @@
+Write the all the data from 'Animal Farms'
+ - Excluding lines which contain 'Napoleon'
+   and replace 'animals' with 'IAI'
+- into compress file data.compressed
+
+read the compressed data from file (use uncompressed)
+write 10 lines to the console 
+wait for Console.ReadKey(true);
+and reade the next 10 lines

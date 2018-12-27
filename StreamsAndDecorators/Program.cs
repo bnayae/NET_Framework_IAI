@@ -31,7 +31,7 @@ namespace StreamsAndDecorators
             //XorEncryptionStream();
 
             //Demo: real-life encryption
-            RealEncryption();
+            //RealEncryption();
 
             //Demo: real-life compression
             //Compression();
